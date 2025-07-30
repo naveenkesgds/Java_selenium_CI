@@ -1,4 +1,4 @@
-window.onload = function () {
+<div class="slicer-restatement">All</div>window.onload = function () {
   let cookies = document.cookie;
   let cookieValue = cookies.split('=');
   if (cookieValue[1] === 'null' || localStorage.getItem('Theme') === 'null') {
